@@ -1,14 +1,12 @@
 <template>
   <label class="switch" :class="inset ? 'inset':''">
-    <input type="checkbox" :checked="modelValue"/>
+    <input type="checkbox" :checked="modelValue" @change="$emit('update:modelValue', $event.target.checked)"/>
     <span class="slider" :class="inset ? 'slider-inset':''">
     </span>
   </label>
 </template>
 
 <script setup>
-import {ref} from 'vue'
-
 const props = defineProps({
   modelValue:{
     type:Boolean,
