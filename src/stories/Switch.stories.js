@@ -1,9 +1,9 @@
-import MySwitch from "../components/switch.vue"
+import MySwitch from '../components/switch.vue';
 
 export default {
-    title: 'Example/Switch',
-    component: MySwitch,
-    tags: ['autodocs'],
-  };
+  title: 'Example/Switch',
+  component: MySwitch,
+  tags: ['autodocs'],
+};
 
-  export const Default = {};
+export const Default = {};
