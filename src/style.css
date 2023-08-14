@@ -1,0 +1,7 @@
+:root {
+  --primary: red;
+  --white: white;
+}
+.bg-red {
+  background-color: red !important;
+}
