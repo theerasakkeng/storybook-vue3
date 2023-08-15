@@ -3,9 +3,9 @@
 </template>
 <script setup>
 import {ref} from "vue"
-import Switch from "../src/components/switch.vue"
+import Switch from "./components/switch/switch.vue"
 
-const isActive = ref(true)
+const isActive = ref(false)
 </script>
 
 <style scoped>
